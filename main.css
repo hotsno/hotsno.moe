@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
 /* Variables */
 :root {
@@ -41,7 +42,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Cultive Mono', monospace;
   transition: 0.2s ease-in-out;
 }
 
@@ -133,9 +134,8 @@ body {
 
 /* Console text */
 #title {
-  font-size: var(--fsg);
+  font-size: 10vh;
   color: var(--fg);
-  font-weight: bolder;
   grid-row: 1 / span 1;
   grid-column: 1 / span 4;
   text-align: center;

@@ -1,4 +1,4 @@
-consoleText(['hotsno', 'can\'t code.'], 'text',['#61b0f1','#a864f5']);
+consoleText(['hotsno', 'cs student', 'osu gamer', 'I need friends'], 'text',['#61b0f1','#a864f5']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
