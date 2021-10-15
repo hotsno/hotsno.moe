@@ -1,4 +1,4 @@
-consoleText(['hotsno', 'made this site', 'by copying code', 'he found', 'on Google.'], 'text',['#61b0f1','#61b0f1','#61b0f1','#61b0f1','#61b0f1']);
+consoleText(['hotsno', 'can\'t code.'], 'text',['#61b0f1','#a864f5']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];

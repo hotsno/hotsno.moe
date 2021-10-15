@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap'); */
 
-/* V A R I A B L E S */
-
+/* Variables */
 :root {
-  /* Fonts  */
+  /* Fonts */
   --fsg: 12vh; /* Time and Greetings */
   --fsm: 8vh; /* Date */
   --fss: 3vh; /* Greetings and Weather widger */
@@ -19,21 +18,13 @@
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
 
-  /* Image background  */
-
-  /* Uncoment this section to get the 
-    image wallpaper. You can also 
-    change the --imgcol value 
-    to make the filter to your own */
-
-  --imgbg: url(assets/background.jpg);
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
   ); /* Filter color */
 }
 
-/* Dark theme  */
+/* Styles */
 .darktheme {
   --accent: #61b0f1; /* Hover color */
   --bg: #19171a; /* Background color */
@@ -45,8 +36,6 @@
     rgba(0, 0, 0, 0.85)
   ); /* Filter color */
 }
-
-/* S T Y L E S */
 
 * {
   margin: 0;
@@ -86,20 +75,6 @@ body {
 .card:hover {
   transform: translateY(-0.2rem);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
-}
-
-#title {
-  font-size: var(--fsg);
-  color: var(--fg);
-  font-weight: bolder;
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 4;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
 }
 
 .buttonLink {
@@ -156,42 +131,19 @@ body {
   stroke: var(--sfg);
 }
 
-.list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.list__1 {
-  grid-column: 3;
-  grid-row: 3 / span 2;
-}
-.list__2 {
-  grid-column: 4;
-  grid-row: 3 / span 2;
-}
-.list__head {
-  margin-top: 3vh;
-  margin-bottom: 2vh;
+/* Console text */
+#title {
+  font-size: var(--fsg);
   color: var(--fg);
-  width: 3vh;
-  height: 3vh;
-}
-.list__link {
-  text-decoration: none;
-  font-size: var(--fses);
-  color: var(--fg);
-  margin-top: 1vh;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-weight: bold;
+  font-weight: bolder;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 4;
   text-align: center;
-  width: 80%;
-}
-.list__link:hover {
-  background-color: var(--accent);
-  color: var(--sfg);
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .hidden {
@@ -200,7 +152,6 @@ body {
 
 .console-container {
   font-family: 'Helvetica', sans-serif;
-  font-size: 1em;
   text-align: center;
   display: block;
   color: white;
@@ -217,8 +168,7 @@ body {
   left: 10px;
 }
 
-/* M E D I A - Q U E R I E S */
-
+/* Media queries */
 @media only screen and (max-width: 68.75em) {
   .container {
     grid-gap: 20px;
