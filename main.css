@@ -1,7 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap'); 
+*/
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 /* Variables */
 :root {
@@ -39,11 +42,36 @@
 }
 
 * {
+  font-family: 'Varela Round', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cultive Mono', monospace;
   transition: 0.2s ease-in-out;
+}
+
+h1 {
+  color: white;
+  font-size: 7vh;
+  padding: 10px;
+}
+
+p {
+  color: white;
+  font-size: 2.5vh;
+  line-height: 3vh;
+}
+
+li {
+  color: white;
+  font-size: 2.5vh;
+}
+
+a {
+  color: #61b0f1;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 body {
@@ -134,6 +162,7 @@ body {
 
 /* Console text */
 #title {
+  font-family: 'Cultive Mono', monospace;
   font-size: 10vh;
   color: var(--fg);
   grid-row: 1 / span 1;
@@ -144,6 +173,28 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+}
+
+#aboutMe {
+  grid-row: 3 / span 1;
+  grid-column: 4 / span 1;
+  position: relative;
+}
+
+#other {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+  position: relative;
+}
+
+.small-button {
+  height: 15%;
+  width: 20%;
+  margin: auto;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 .hidden {
