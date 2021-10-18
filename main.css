@@ -239,6 +239,14 @@ body {
     font-size: var(--fss);
   }
 
+  #aboutMe {
+    display: none;
+  }
+
+  #other {
+    display: none;
+  }
+
   .list {
     display: none;
   }
