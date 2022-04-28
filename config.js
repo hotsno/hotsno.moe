@@ -15,9 +15,9 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Steam',
-      icon: 'play-circle',
-      link: 'https://steamcommunity.com/id/hotsno/',
+      name: 'Last.fm',
+      icon: 'music',
+      link: 'https://www.last.fm/user/hotsno',
     },
     {
       id: '5',
