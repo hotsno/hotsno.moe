@@ -15,9 +15,9 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Last.fm',
-      icon: 'music',
-      link: 'https://www.last.fm/user/hotsno',
+      name: 'AniList',
+      icon: 'list',
+      link: 'https://anilist.co/user/hotsno',
     },
     {
       id: '5',
@@ -27,9 +27,9 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'AniList',
-      icon: 'list',
-      link: 'https://anilist.co/user/hotsno',
+      name: 'Last.fm',
+      icon: 'music',
+      link: 'https://www.last.fm/user/hotsno',
     },
     {
       id: '4',
