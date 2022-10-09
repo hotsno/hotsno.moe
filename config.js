@@ -5,7 +5,7 @@ const CONFIG = {
   imageBackground: false,
   openInNewTab: true,
 
-  // Links
+  // Links 
   cards: [
     {
       id: '1',
