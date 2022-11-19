@@ -23,7 +23,7 @@ const CONFIG = {
       id: '5',
       name: 'osu!',
       icon: 'circle',
-      link: 'https://osu.ppy.sh/users/10076789',
+      link: 'https://osu.ppy.sh/u/hotsno',
     },
     {
       id: '3',
@@ -35,7 +35,7 @@ const CONFIG = {
       id: '4',
       name: 'YouTube',
       icon: 'youtube',
-      link: 'https://www.youtube.com/channel/UCFCulj7PEEsa3IL6f7RPUlw',
+      link: 'https://www.youtube.com/@hotsno',
     },
     {
       id: '6',
