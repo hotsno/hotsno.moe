@@ -2,38 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>hotsno.me</title>
+    <title>Home | hotsno</title>
+    <meta content="hotsno's site" property="og:title" />
+    <meta content="idk what to write here" property="og:description" />
     <link
       rel=" shortcut icon"
       type="image/png"
       href="assets/icons/favicon2.png"
     />
+    <link rel="stylesheet" href="main.css" />
+    <script src="assets/icons/feather.min.js"></script>
   </head>
 
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      box-sizing: border-box;
-    }
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    p {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: white;
-    }
-  </style>
+  <body class="darktheme">
+    <div class="container">
+      <div id="title">
+        <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+      </div>
+      <div class="buttonLink" id="buttonsContainer"></div>
+    </div>
 
-  <body>
-    <p>coming soon™</p>
+    <!-- Config  -->
+    <script src="config.js"></script>
+
+    <!-- Scripts  -->
+    <script src="assets/js/cards.js"></script>
+    <script src="assets/js/terminal.js"></script>
+    <script src="assets/js/feather.js"></script>
   </body>
 </html>
