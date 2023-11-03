@@ -2,63 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>home · hotsno</title>
-    <link rel="shortcut icon" type="image/png" href="assets/mewo.png" />
+    <link rel="icon" type="image/png" href="assets/mewo.png" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
       * {
+        margin: 0;
         user-select: none;
-        margin: none;
+        -webkit-user-select: none;
       }
+
       body {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100dvh;
-        margin: 0;
         font-family: "Varela Round", sans-serif;
         background-color: #111;
       }
+
+      h1 {
+        cursor: default;
+        font-weight: normal;
+        font-size: 5rem;
+        color: #ccc;
+      }
+
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+        transition: 0.2s ease;
+        -webkit-user-drag: none;
+      }
+
+      img:hover {
+        filter: brightness(70%);
+      }
+
       .content {
         text-align: center;
       }
+
       .social-icons {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 1dvh;
       }
+
       .social-icons a {
         display: inline-block;
-        margin: 0 1dvh;
-      }
-      p {
-        margin: 0;
-        font-size: 10dvh;
-        color: #ccc;
-      }
-      img {
-        width: 3.5dvh;
-        height: 3.5dvh;
-        transition: filter 0.2s ease;
-      }
-      img:hover {
-        filter: brightness(70%);
+        margin: 0 0.6rem;
       }
     </style>
   </head>
   <body>
     <div class="content">
-      <p>hotsno</p>
+      <h1>hotsno</h1>
       <div class="social-icons">
         <a href="https://github.com/hotsno" target="_blank">
-          <img src="assets/github.svg" alt="GitHub logo" />
+          <img src="assets/github.svg" />
         </a>
         <a href="https://anilist.co/user/hotsno" target="_blank">
-          <img src="assets/anilist.svg" alt="AniList logo" />
+          <img src="assets/anilist.svg" />
         </a>
         <a href="https://osu.ppy.sh/u/hotsno" target="_blank">
-          <img src="assets/osu.svg" alt="osu! logo" />
+          <img src="assets/osu.svg" />
         </a>
       </div>
     </div>
