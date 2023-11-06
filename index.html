@@ -28,6 +28,9 @@
         font-weight: normal;
         font-size: 5rem;
         color: #ccc;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeInUp 1s ease forwards 0.25s;
       }
 
       img {
@@ -54,6 +57,20 @@
       .social-icons a {
         display: inline-block;
         margin: 0 0.6rem;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeInUp 1s ease forwards 0.3s;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
     </style>
   </head>
